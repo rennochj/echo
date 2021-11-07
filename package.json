@@ -4,12 +4,20 @@
   "description": "http echo utility",
   "main": "app.js",
   "scripts": {
+<<<<<<< HEAD
     "start": "node app.js"
+=======
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> 39599cb6cd4f8b07565c9c830a33b545d8697ca3
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "express": "^4.17.1",
     "node-os-utils": "^1.3.5"
+=======
+    "express": "^4.17.1"
+>>>>>>> 39599cb6cd4f8b07565c9c830a33b545d8697ca3
   }
 }
