@@ -1,0 +1,19 @@
+version: '3'
+services:
+  api:
+    image: echo
+    build: .
+    networks:
+      - backend
+    ports:
+      - "80:8080"
+
+  web-cli:
+    image: echo
+    networks:
+      - backend
+    command: sh
+
+networks:
+  backend:
+    driver: bridge
