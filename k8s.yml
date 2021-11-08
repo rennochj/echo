@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: echo
+  labels: 
+    group: echo-pod
+spec:
+  containers:
+  - name: echo
+    image: connerjh/echo
+    ports:
+    - containerPort: 8080
+
