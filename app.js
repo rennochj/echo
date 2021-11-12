@@ -40,6 +40,8 @@ app.get('/', (req, res) => {
             }
         }
 
+        console.log(`here I am`)
+
         sendJsonMessage(req, res, message)
 
     })
