@@ -1,0 +1,14 @@
+version: '3'
+services:
+  app:
+    image: echo
+    build: .
+    networks:
+      - backend
+    ports:
+      - "80:8080"
+
+networks:
+  backend:
+    driver: bridge
+    
